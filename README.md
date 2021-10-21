@@ -37,7 +37,7 @@ In the above image are highlighted:
 
 One method to dump a firmware is using an open debugging interface, as the UART, and try to extract the firmware through the system shell or the bootloader shell. Unfortunately, there is not any documentation of this gateway, so we must locate the UART interface.
 
-### Locatingthe UART interface
+### Locating the UART interface
 
 On the board’s lower bound there are four pins that could correspond to the UART interface. To verify them we can measure the resistance between each pin and ground, between each pin and Vcc, and finally measure the voltage of each pin.
 
